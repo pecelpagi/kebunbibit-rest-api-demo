@@ -1,0 +1,38 @@
+{
+  "name": "api-kebunbibit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js --exec babel-node --presets @babel/preset-env",
+    "test": "mocha --require @babel/register --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "joi": "^17.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "redis": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.1.0",
+    "nodemon": "^2.0.12"
+  }
+}
